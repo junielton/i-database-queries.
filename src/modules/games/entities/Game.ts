@@ -4,10 +4,10 @@ import {
   Entity,
   ManyToMany,
   PrimaryGeneratedColumn,
-  UpdateDateColumn,
+  UpdateDateColumn
 } from 'typeorm';
-
 import { User } from '../../users/entities/User';
+
 
 @Entity('games')
 export class Game {
